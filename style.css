@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 /* Box sizing rules */
 *,
 *::before,
@@ -73,9 +74,113 @@ select {
   }
 }
 
+html{
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+}
 
 
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 1400px;
+}
 
 
+.nav-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-container li{
+  display: inline;
+}
+
+.nav-container a{
+  text-decoration: none;
+}
+
+.main-container{
+  display: flex;
+  gap: 1.25rem;
+}
+
+.showcase{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem ;
+  place-items: center;
+}
+
+.showcase h1{
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 4rem;
+}
+
+.showcase picture{
+  grid-column: span 2;
+}
+
+.showcase p{
+  color: hsl(236, 13%, 42%);
+}
 
 
+.showcase article button{
+  font-size: 1rem;
+  padding: .75rem 1.5rem;
+  letter-spacing: 5px;
+  font-weight: 700;
+  color: white;
+  background-color: hsl(5, 85%, 63%);
+  outline: none;
+  border: none;
+  margin-top: 1rem;
+}
+.showcase article button:hover{
+  background-color:hsl(240, 100%, 5%) ;
+  cursor: pointer;
+}
+
+.aside{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: hsl(240, 100%, 5%);
+  padding: 2rem;
+  color: white;
+  line-height: 2rem;
+}
+
+.aside h2{
+  color: hsl(35, 77%, 62%);
+  font-size: 3rem;
+}
+
+.aside article{
+  border-bottom: 1px solid hsl(236, 13%, 42%);
+
+}
+
+.aside p{
+  color: hsl(233, 8%, 79%);
+}
+
+.aside :last-child {
+  border-bottom: none;
+}
+
+.aside h3{
+  font-size: 1.25rem;
+}
+
+.aside h3:hover{
+  color:hsl(35, 77%, 62%) ;
+  cursor: pointer;
+}
