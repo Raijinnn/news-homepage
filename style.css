@@ -108,12 +108,13 @@ body{
 .main-container{
   display: flex;
   gap: 1.25rem;
+  margin-bottom: 3rem;
 }
 
 .showcase{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem ;
+  gap: 1.5rem ;
   place-items: center;
 }
 
@@ -183,4 +184,29 @@ body{
 .aside h3:hover{
   color:hsl(35, 77%, 62%) ;
   cursor: pointer;
+}
+
+.last-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.last-section article {
+  display: flex;
+}
+
+.last-section  img{
+  width: 150px;
+}
+
+.last-section span{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.last-section h3{
+  font-size: 1.25rem;
+  font-weight: 800;
 }
