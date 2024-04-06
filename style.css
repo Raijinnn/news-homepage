@@ -210,12 +210,12 @@ section article div{
 section article div h4{
     color:hsl(236, 13%, 42%) ;
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 section article div h5{
     font-weight: 800;
-    font-size: 0.813rem;
+    font-size: 1.125rem;
     transition: 0.25s;
 }
 section article div h5:hover{
@@ -226,7 +226,7 @@ section article div h5:hover{
 section article div p {
     color: hsl(236, 13%, 42%);
     font-size: 1rem;
-    line-height: 18px;
+    line-height: 25px;
 }
 
 section article img {
